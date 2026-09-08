@@ -1,0 +1,22 @@
+# Java build outputs
+backend/bin/
+*.class
+
+# SQLite test databases & temporary files
+database/test_*.db*
+*.tmp
+*.log
+
+# Windows Desktop executable build outputs
+desktop/AIGradingInternal.exe
+desktop/*.pdb
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+build/
+dist/
+nbproject/private/
