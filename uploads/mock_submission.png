@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0f172a"/>
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="200" height="500" fill="#1e293b"/>
+  <circle cx="40" cy="40" r="16" fill="#6366f1"/>
+  <rect x="70" y="32" width="90" height="16" rx="4" fill="#f8fafc"/>
+  <rect x="20" y="90" width="160" height="36" rx="6" fill="#334155"/>
+  <rect x="20" y="136" width="160" height="36" rx="6" fill="#1e293b"/>
+  <rect x="20" y="182" width="160" height="36" rx="6" fill="#1e293b"/>
+  
+  <!-- Header -->
+  <rect x="200" y="0" width="600" height="64" fill="#1e293b"/>
+  <rect x="230" y="18" width="220" height="28" rx="6" fill="#0f172a"/>
+  <circle cx="750" cy="32" r="16" fill="#10b981"/>
+
+  <!-- Content Cards -->
+  <rect x="230" y="90" width="165" height="90" rx="8" fill="#1e293b" stroke="#334155"/>
+  <rect x="415" y="90" width="165" height="90" rx="8" fill="#1e293b" stroke="#334155"/>
+  <rect x="600" y="90" width="165" height="90" rx="8" fill="#1e293b" stroke="#334155"/>
+
+  <!-- Chart Area -->
+  <rect x="230" y="205" width="535" height="260" rx="8" fill="#1e293b" stroke="#334155"/>
+  <polyline points="260,400 340,320 420,350 500,280 580,310 660,250 730,270" fill="none" stroke="#6366f1" stroke-width="3"/>
+  <text x="250" y="235" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">Analytics Overview</text>
+</svg>

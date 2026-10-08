@@ -1,0 +1,133 @@
+﻿Project: An AI Grading Tool for Lecturers
+1. General Requirements
+• A beautifully designed UX/UI Website suitable for various operating systems and a separate executable (.exe) application for internal use.
+• Use Java + database (SQL...).
+• Full Front-end and Back-end.
+2. Database
+LOGIN PERMISSION REQUIREMENTS:
+• Create accounts for Teachers and Students.
+• Students submit assignments and are graded by Teachers.
+[Database Model Placeholder]
+3. Website and .exe App Features
+The Website/App will require account login if available, with sections for account creation and forgotten passwords. An OTP code will be sent to Gmail or a phone number for account creation and password recovery.
+For Students:
+• It will display the subjects assigned by the school, for example: Semester 1: ANC111, ABC222...
+• Upon login, if there are subjects requiring assignment submissions, a notification will be displayed immediately.
+For Lecturers:
+• It will display tools to create classes, create assignments, and upload assignment prompts for students to download.
+• There will be a section to grade each assignment submitted by students, featuring AI tools (requires API key). When the API key is entered, it will read the lecturer's prompt requirements and grade the assignment automatically. Additionally, it will analyze errors and summarize the assignment if necessary.
+• Furthermore, there are sections for lecturer feedback/comments.
+4. Tool and Feature Requirements
+• Tools such as automatic deadline notifications, sending an email to the student's registered email if the deadline is approaching and no submission has been made.
+5. Website Requirements Checklist (1-100)
+A. UX/UI
+1. Homepage works
+2. Logo displays correctly
+3. Navbar works
+4. Footer is complete
+5. No broken links
+6. Buttons work
+7. Forms display correctly
+8. Consistent fonts
+9. Consistent colors
+10. Reasonable spacing/padding
+11. No screen overflow
+12. Responsive on laptop
+13. Responsive on mobile
+14. Responsive on tablet
+15. Images are not distorted
+16. Loading indicator for long processes
+17. Success notifications
+18. Error notifications
+19. Empty state when there is no data
+20. Confirmation on data deletion
+B. Authentication
+21. Register
+22. Login
+23. Logout
+24. Password is encrypted
+25. No plaintext password storage
+26. Valid email check
+27. Password validation
+28. Prevent login with incorrect info
+29. Session/token works
+30. Prevent unauthenticated users from accessing private pages
+C. Authorization
+31. Roles exist
+32. Admin has specific permissions
+33. User has specific permissions
+34. Cannot access unauthorized APIs
+35. Not just hiding buttons, backend permission checks required
+36. Cannot edit other users' data without permission
+D. Database / SQL
+37. Database runs successfully
+38. Tables are logically designed
+39. Primary Keys exist
+40. Foreign Keys are correct
+41. Relationships are correct
+42. Reasonable data types
+43. NOT NULL used correctly
+44. UNIQUE used correctly
+45. No unnecessary data duplication
+46. Sample data exists
+47. Queries work
+48. Inserts work
+49. Updates work
+50. Deletes work
+E. Backend / API
+51. Backend runs without errors
+52. API GET
+53. API POST
+54. API PUT/PATCH
+55. API DELETE
+56. Correct HTTP status codes
+57. Response has a clear structure
+58. Validate requests
+59. Exception handling
+60. Do not return stack trace to users
+61. APIs require authentication when necessary
+62. APIs check authorization
+63. No hard-coded secrets
+64. Environment variables used
+65. API does not crash on invalid input
+F. CRUD
+Each main entity should check: CREATE -> READ -> UPDATE -> DELETE
+66. Create
+67. Read
+68. Update
+69. Delete
+70. Search
+71. Filter
+72. Sort
+73. Pagination
+G. Security
+74. Prevent SQL Injection
+75. Prevent XSS
+76. Validate frontend input
+77. Validate backend input
+78. Password hashing
+79. Do not commit .env
+80. No API keys in source code
+81. Do not expose database credentials
+82. Backend permission checks
+H. Testing
+Intentionally input incorrect data:
+83. Empty forms
+84. Invalid emails
+85. Incorrect passwords
+86. Negative numbers
+87. Text too long
+88. Special characters
+89. Non-existent IDs
+90. Delete referenced data
+91. Database offline
+92. API errors
+I. Git / Deploy / Documentation
+93. Project pushed to Git
+94. Correct .gitignore
+95. README with run instructions
+96. Database setup instructions
+97. Demo account if needed
+98. Production runs successfully
+99. No severe console errors
+100. Can clone project -> setup -> run successfully

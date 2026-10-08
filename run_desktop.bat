@@ -1,0 +1,3 @@
+@echo off
+echo Starting AI Grading Internal Desktop Tool (.exe)...
+start "" "desktop\AIGradingInternal.exe"
